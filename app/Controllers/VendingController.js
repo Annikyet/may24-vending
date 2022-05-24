@@ -1,6 +1,6 @@
 import { vendingService } from "../Services/VendingService.js"
 import { ProxyState } from "../AppState.js"
-import { formatDollars } from "../Utils/formatDollars.js"
+import { formatMoney } from "../Utils/formatMoney.js"
 
 function _drawProducts() {
   let html = ``
@@ -19,7 +19,7 @@ function _drawCoins() {
 }
 
 function _drawMoney() {
-  document.getElementById('money').innerText = formatDollars(ProxyState.money)
+  document.getElementById('money').innerText = formatMoney(ProxyState.money)
 }
 
 function _updateAvailable() {

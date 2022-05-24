@@ -21,6 +21,8 @@ class AppState extends EventEmitter {
   ]
   money = 0
   coins = [
+    new Coin(10000),
+    new Coin(100),
     new Coin(25),
     new Coin(10),
     new Coin(5)
