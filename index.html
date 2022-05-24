@@ -22,17 +22,31 @@
 
   <main class="container-fluid">
     <div class="row">
-      <div class="col-md-3 order-md-0">
+      <div class="col-md-3 order-md-last">
         <div class="card">
           <div class="card-body">
             <h2 class="card-title">add munie</h2>
           </div>
         </div>
       </div>
-      <div class="col-md-9">
+      <div class="col-md-9 order-md-first">
         <div class="card">
           <div class="card-body">
             <h2 class="card-title">bai stuff</h2>
+            <div class="row" id="product-cards">
+              <div class="col-6 col-md-4">
+                <div class="card">
+                  <img src="https://thiscatdoesnotexist.com" alt="" class="card-img">
+                  <div class="card-body">
+                    <h3 class="card-title">costs your life</h3>
+                    <div class="d-flex justify-content-between">
+                      <p class="card-text">$100</p>
+                      <button class="btn btn-primary" onclick="app.vendingController.buy('id')">Buy</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -5,18 +5,18 @@ import { Product } from "./Models/Product.js"
 class AppState extends EventEmitter {
   /** @type {import('./Models/Product.js').Product[]} */
   products = [
-    new Product('car', 100, 3),
-    new Product('car', 100, 3),
-    new Product('car', 100, 3),
-    new Product('car', 100, 3),
-    new Product('car', 100, 3),
-    new Product('car', 100, 3),
-    new Product('car', 100, 3),
-    new Product('car', 100, 3),
-    new Product('car', 100, 3),
-    new Product('car', 100, 3),
-    new Product('car', 100, 3),
-    new Product('car', 100, 3)
+    new Product('car', 'https://thiscatdoesnotexist.com', 123, 3),
+    new Product('car', 'https://thiscatdoesnotexist.com', 100, 3),
+    new Product('car', 'https://thiscatdoesnotexist.com', 100, 3),
+    new Product('car', 'https://thiscatdoesnotexist.com', 100, 3),
+    new Product('car', 'https://thiscatdoesnotexist.com', 100, 3),
+    new Product('car', 'https://thiscatdoesnotexist.com', 100, 3),
+    new Product('car', 'https://thiscatdoesnotexist.com', 100, 3),
+    new Product('car', 'https://thiscatdoesnotexist.com', 100, 3),
+    new Product('car', 'https://thiscatdoesnotexist.com', 100, 3),
+    new Product('car', 'https://thiscatdoesnotexist.com', 100, 3),
+    new Product('car', 'https://thiscatdoesnotexist.com', 100, 3),
+    new Product('car', 'https://thiscatdoesnotexist.com', 100, 3)
   ]
 }
 
